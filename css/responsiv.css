@@ -1,0 +1,44 @@
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #bannar .main_bannar {
+        flex-direction: column;
+    }
+    #funny_part {
+        margin-top: 70px;
+    }
+    #funny_part .box p {
+        width: auto;
+        text-align: center;
+    }
+    #career_part .container .contend p {
+        width: auto;
+    }
+    #career_part .list_tow {
+        padding-right: 0;
+    }
+    footer {
+        padding: 60px 0px;
+    }
+    footer .container ul {
+        flex-direction: column;
+        row-gap: 15px;
+    }
+    #gamer .contend .text h2 {
+        text-align: center;
+    }
+    #gamer .contend .text p {
+        text-align: center;
+    }
+    #gamer .contend .text button {
+        margin-left: 134px;
+    }
+    #gamer .contend .text h4 {
+        text-align: center;
+    }
+    #gamer .contend .text h3 {
+        text-align: center;
+    }
+
+
+
+
+}
