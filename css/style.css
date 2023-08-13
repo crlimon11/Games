@@ -1,0 +1,406 @@
+/* ========== @@@@@@@@@@@@@ COmmon Shared Styles @@@@@@@@@@ ====================== */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/* ========== @@@@@@@@@@ Navbar Start Here @@@@@@@@@@@@@@@@@@ =================== */
+.navbar{
+    padding: 37px 0;
+    position: absolute;
+    width: 100%;
+}
+.navbar .navbar-brand img{
+    width: 100%;    
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    padding: 0;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+.navbar .navbar-nav {
+    column-gap: 31px;
+}
+.navbar button{
+    margin-left: 31px;
+    padding: 16px 24px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.navbar button .nav_icon{
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+}
+.navbar button h4{
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+/* ========  @@@@@@@@@@@ Bannar Part Start Hare @@@@@@@@@ ================= */
+/* #bannar .contend_part{
+    border: 2px solid steelblue;
+    width: 100%;
+    background: url(../images/bannar-shdow.png);
+} */
+#bannar{
+    position: relative;
+    padding-top: 130px;
+}
+#bannar .main_bannar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#bannar .main_bannar .text h3{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#bannar .main_bannar .text h1{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#bannar .main_bannar .text .flexible_icon{
+    display: flex ;
+    column-gap: 12px;
+    margin-bottom: 16px;                                     
+}
+#bannar .main_bannar .image_part img{
+    width: 100%;
+}
+#bannar .main_bannar .text button{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 21px 40px;
+}
+#bannar .main_bannar .text .sign_btn{
+    border: none;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+#bannar .main_bannar .text .go_btn{
+    border: none;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+/* ===== @@@@@@@@@@@@@@@ Gamer Part Start Hare @@@@@@@@@@@  =============== */
+#gamer{
+    margin-top: 55px;
+}
+#gamer .container .gamer_img img{
+    width: 100%;
+}
+#gamer .contend .text h2{
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#gamer .contend .text p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+#gamer .contend .text button{
+    padding: 21px 40px;
+    border: none;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    margin-left: 243px
+}
+#gamer .contend .text h4{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; /* 187.5% */
+}
+#gamer .contend .text h3{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: right;
+    width: 467px;
+    margin: 0 auto;
+}
+/* ======================== Funny Part =========================== */
+#funny_part h2{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#funny_part .pinky{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+#funny_part p{
+    color: #534C64;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    margin-bottom: 48px;
+}
+#funny_part .box img{
+    width: 100%;
+}
+#funny_part .box p{
+    width: 306px;
+    text-align: start;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+/* ==================== Download Part ================================== */
+
+#download .text h2{
+    width: 353px;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+}
+#download .text p{
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 353px;
+}
+#download .text .pinky{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#download .text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#download .donload_photo .photo_one img{
+    width: 100%;
+}
+#download .donload_photo .photo_one {
+    position: relative;
+}
+#download .donload_photo .photo_tow {
+   position: absolute;
+   transform: translateY(-80%) translateX(-40%);
+   /* transform: translateX(-50%); */
+   
+}
+/* ===================== Career Part Related Styles================= */
+#career_part{
+    margin-top: 80px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding: 120px 0 150px 0;
+}
+#career_part .container .contend h2{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 125% */
+}
+#career_part .container .contend p{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 634px;
+}
+#career_part .list li{
+    list-style: none;
+}
+#career_part .list_tow li{
+    text-align: right;
+    list-style: none;
+}
+#career_part .list li{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+}
+#career_part .list_tow li{
+    color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 200% */
+}
+#career_part .list_tow {
+    padding-right:132px;
+}
+#career_part .contend button{
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    color: #FF42A5;
+}
+#career_part .career_photo img{
+    width: 100%;
+    text-align: right;
+    height: 100%;
+}
+/* ================= Footer Related Styles ======================= */
+footer{
+    background: #0B0223;
+    padding: 120px 616px;
+}
+footer .container .footer_logo{
+    display: flex;
+    justify-content: center;
+}
+footer .container ul{
+    display: flex;
+    column-gap: 60px;
+    justify-content: center;
+}
+footer .container .out_story li{
+    list-style: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+footer .container .icons{
+    text-align: center;
+}
+footer .container .icons a{
+    margin-right: 40px;
+    
+}
+footer .container .out_story{
+    margin: 56px 0;
+}
+footer .container .list li{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    
+}
+footer .container .list {
+    padding: 74px 0 28px 0;
+    list-style: none; 
+}
+footer .container h5{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+
+
+
+
+
